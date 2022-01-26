@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 10px;
+    align-content: center;
+    background-color: black;
+}
+
+#display {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 60px;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#operators {
+    display: flex;
+    flex-direction: column;
+}
+
+#operators button {
+    background-color: orange;
+    color: white;
+}
+
+#equals {
+    background-color: orange;
+    color: white;
+}
+
+#clear {
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+}
+
+#zero {
+    width: 66%;
+}
+
+#decimal {
+    float: right;
+    width: 32%;
+}
+
+button {
+    font-size: 30px;
+    border-radius: 10%;
+    width: 80px;
+    height: 80px;
+}
+
+#digits div button {
+    color: white;
+    background-color: rgb(83, 82, 82);
+}
